@@ -1,0 +1,20 @@
+spring:
+  application.name: user-service-challenge
+  profiles.active: local
+  jackson:
+    serialization.WRITE_DATES_AS_TIMESTAMPS: false
+    deserialization.fail-on-unknown-properties: false
+    default-property-inclusion: non_null
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+  datasource:
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/dbChallenge
+server:
+  port: 8080
+  error.include-message: always
