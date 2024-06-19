@@ -3,6 +3,7 @@
 ## Stack
 * Spring Boot 3.3.0
 * Spring Data (JPA, Hibernate)
+* Flyway
 * PostgreSQL 16
 * Java 17
 
