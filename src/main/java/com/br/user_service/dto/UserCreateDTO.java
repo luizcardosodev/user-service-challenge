@@ -3,6 +3,7 @@ package com.br.user_service.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data
@@ -18,6 +19,6 @@ public class UserCreateDTO {
     private String name;
 
     @Schema(description = "ID do departamento que usuário pertence")
-    @NotBlank(message = "Field 'departmentId' is required")
+    @NotNull(message = "Field 'departmentId' is required")
     private Long departmentId;
 }
