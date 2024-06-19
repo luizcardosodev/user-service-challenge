@@ -36,7 +36,7 @@ Os seguintes itens devem ser instalados em seu sistema:
 
 - Java 17 ou mais recente (full JDK, not a JRE)
 - PostgreSQL 16
-- [Git command line tool](https://help.github.com/articles/set-up-git)
+- [Git command line tool](http://help.github.com/articles/set-up-git)
 - Seu IDE preferido
 
     - [Spring Tools Suite](https://spring.io/tools) (STS)
