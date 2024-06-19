@@ -14,7 +14,7 @@
 
 Este é um aplicativo [Spring Boot](https://spring.io/guides/gs/spring-boot)
 
-1. Certifique-se de configurar o arquivo ```application.yml``` linha 17 para apontar para o banco de dados em PostgreSQL, caso contrário aplicação não irá subir.
+**Obs.:** Certifique-se de configurar o arquivo ```application.yml``` linha 17 para apontar para o banco de dados em PostgreSQL, caso contrário aplicação não irá subir.
 
 Você pode criar um arquivo jar e executá-lo na linha de comando (deve funcionar igualmente bem com Java 17 ou mais recente):
 
